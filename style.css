@@ -89,6 +89,8 @@ hr {
     padding-top: 0;
 }
 
+
+
 .titulo-card {
     font-weight: bold;
     color: black;
@@ -117,7 +119,7 @@ hr {
     .botao {
         display: block;
         background: none;
-        border: 1px solid black;
+        border: none;
     }
 
     .section-principal {
@@ -163,7 +165,7 @@ hr {
     .card-principal {
         border: 1px solid rgb(193, 193, 193);
         width: 150px;
-        height: 300px;
+        height: 320px;
     }
 
     .foto-card {
@@ -171,8 +173,8 @@ hr {
         height: 140px;
     }
 
-    .avaliacao {
-        display: none;
+    .material-icons.md-18 {
+        font-size: 20px;
     }
 
     .texto-card {
