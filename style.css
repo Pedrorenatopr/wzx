@@ -101,6 +101,20 @@ hr {
     color: rgb(159, 146, 59);
 }
 
+.section-dois {
+    padding-left: 230px;
+    padding-top: 100px;
+    color: black;
+}
+
+.email {
+    padding: 10px;
+}
+
+.botao-dois {
+    padding: 10px;
+}
+
 @media screen and  (max-device-width: 900px) {
 
     .menu {
@@ -179,6 +193,12 @@ hr {
 
     .texto-card {
         padding: 1em;
+    }
+
+    .section-dois {
+        padding-left: 0;
+        padding-top: 100px;
+        color: black;
     }
 
 
