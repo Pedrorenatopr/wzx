@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(121, 117, 117);
     top: 0;
     left: 0;
     right: 0;
@@ -51,7 +52,54 @@ hr {
     display: none;
 }
 
-@media screen and  (max-device-width: 700px) {
+.cartao {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 2em;
+}
+
+.card {
+    padding: 1em;
+    width: 250px;
+}
+
+.card-principal {
+    border: 1px solid rgb(193, 193, 193);
+    width: 250px;
+    height: 450px;
+}
+
+.foto-card {
+    width: 250px;
+}
+
+.texto-card {
+    padding: 2.5em;
+}
+
+#star {
+    padding-top: 0;
+    padding: 0;
+}
+
+.avaliacao {
+    padding: 0;
+    padding-top: 0;
+}
+
+.titulo-card {
+    font-weight: bold;
+    color: black;
+}
+
+.preco {
+    font-weight: bold;
+    color: rgb(159, 146, 59);
+}
+
+@media screen and  (max-device-width: 900px) {
 
     .menu {
         display: flex;
@@ -98,6 +146,37 @@ hr {
     #burguer {
         display: block;
         cursor: pointer;
+    }
+
+    .cartao {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        padding-top: 100px;
+        gap: 1em;
+    }
+    
+    .card {
+        padding: 1em;
+    }
+    
+    .card-principal {
+        border: 1px solid rgb(193, 193, 193);
+        width: 150px;
+        height: 300px;
+    }
+
+    .foto-card {
+        width: 150px;
+        height: 140px;
+    }
+
+    .avaliacao {
+        display: none;
+    }
+
+    .texto-card {
+        padding: 1em;
     }
 
 
