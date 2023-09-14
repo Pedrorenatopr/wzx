@@ -181,6 +181,16 @@ hr {
     
 }
 
+.texto-footer {
+    color: black;
+}
+
+.copy {
+    padding-top: 50px;
+    font-size: 13px;
+    text-align: center;
+}
+
 @media screen and  (max-device-width: 900px) {
 
     .menu {
