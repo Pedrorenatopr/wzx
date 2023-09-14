@@ -210,6 +210,11 @@ hr {
         display: block;
         background: none;
         border: none;
+        color: rgb(121, 117, 117);
+    }
+
+    .material-icons.md-30 {
+        font-size: 28px;
     }
 
     .section-principal {
@@ -310,6 +315,9 @@ hr {
         padding-left: 0;
     }
 
+    .teste {
+        width: 50%;
+    }
 
 
 
