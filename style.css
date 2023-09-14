@@ -4,6 +4,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    background-color: white;
 }
 
 
@@ -16,6 +17,7 @@ body {
 .menu-item {
     padding: 1em;
     text-decoration: none;
+    color: rgb(121, 117, 117);
 }
 
 .section-principal {
@@ -42,6 +44,11 @@ body {
 
 .entrar {
     text-decoration: none;
+    color: rgb(121, 117, 117);
+}
+
+.cadastrar {
+    color: rgb(121, 117, 117);
 }
 
 hr {
@@ -113,6 +120,19 @@ hr {
 
 .botao-dois {
     padding: 10px;
+}
+
+.footer {
+    padding-top: 100px;
+    padding-left: 230px;
+    display: flex;
+}
+
+.lista-redes {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0;
 }
 
 @media screen and  (max-device-width: 900px) {
