@@ -4,7 +4,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: black;
 }
 
 
@@ -126,6 +126,7 @@ hr {
     padding-top: 100px;
     padding-left: 230px;
     display: flex;
+    background-color: brown;
 }
 
 .lista-redes {
@@ -133,6 +134,25 @@ hr {
     list-style: none;
     padding-left: 0;
     padding-top: 0;
+}
+
+.lista-sobre {
+    list-style: none;
+}
+
+.itens-sobre {
+    text-decoration: none;
+    color: rgb(121, 117, 117);
+    line-height: 1em;
+}
+
+.lista-contato {
+    list-style: none;
+}
+
+.itens-contato {
+    text-decoration: none;
+    color: rgb(121, 117, 117);
 }
 
 @media screen and  (max-device-width: 900px) {
