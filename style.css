@@ -4,7 +4,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: black;
+    background-color: white;
 }
 
 
@@ -122,11 +122,14 @@ hr {
     padding: 10px;
 }
 
+.teste {
+    width: 80%;
+}
+
 .footer {
     padding-top: 100px;
-    padding-left: 230px;
     display: flex;
-    background-color: brown;
+    justify-content: space-around;
 }
 
 .lista-redes {
@@ -138,12 +141,24 @@ hr {
 
 .lista-sobre {
     list-style: none;
+
 }
 
 .itens-sobre {
     text-decoration: none;
     color: rgb(121, 117, 117);
     line-height: 1em;
+}
+
+.material-icons.md-20 {
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.teste-um {
+    display: flex;
+    align-items: center;
 }
 
 .lista-contato {
@@ -153,6 +168,17 @@ hr {
 .itens-contato {
     text-decoration: none;
     color: rgb(121, 117, 117);
+}
+
+.lista-pagamento {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding-left: 0;
+}
+
+.itens-pagamento {
+    
 }
 
 @media screen and  (max-device-width: 900px) {
@@ -240,6 +266,41 @@ hr {
         padding-top: 100px;
         color: black;
     }
+
+    .footer {
+        padding-top: 100px;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .lista-redes {
+        justify-content: center;
+    }
+
+    .sobre-nos {
+        padding-left: 0;
+    }
+
+    .lista-sobre {
+        padding-left: 0;
+    }
+
+    .contato {
+        padding-left: 0;
+    }
+
+    .lista-contato {
+        padding-left: 0;
+    }
+
+    .pagamento {
+        padding-left: 0;
+    }
+
+
 
 
 }
