@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>WZ'X</title>
+</head>
+<body onresize="mudouTamanho()">
+
+    <div class="section-principal">
+        <div class="logo">
+            <h1 class="logo-texto">WZ'X</h1>
+        </div>
+        
+        <div class="busca">
+            <input class="input" type="search" name="" id="" placeholder="BUSCAR">
+        </div>
+
+        <div class="icone-perfil">
+            <span class="material-icons md-48">perm_identity</span>
+        </div>
+        
+        <div class="perfil">
+            <span><a class="entrar" href="#">Entrar</a></span> /
+            <span><a class="entrar" href="#">Cadastrar</a></span>
+        </div>
+
+        <div class="cart">
+            <span class="material-icons md-48">shopping_cart</span>
+        </div>
+
+
+       
+    </div>
+    <hr>
+
+    <div class="menu">
+        <button class="botao"><span id="burguer" class="material-icons md-30" onclick="clickMenu()" >menu</span></button>
+    </div>
+    
+    <ul class="menu-lista" id="itens">
+        <li><a class="menu-item" href="#">Oferta</a></li>
+        <li><a class="menu-item" href="#">Oferta</a></li>
+        <li><a class="menu-item" href="#">Oferta</a></li>
+        <li><a class="menu-item" href="#">Oferta</a></li>
+    </ul>
+
+    <div class="cartao-dois">
+        <div class="foto-dois">
+            <img src="holly.PNG" alt="">
+        </div>
+
+        <div class="cartao-tres">
+            
+
+        </div>
+
+    </div>
+
+    <div class="section-dois">
+        <div class="cadastro">
+            <p class="texto-dois">CADASTRE-SE e receba  novidades e promoções.</p>
+            <div class="formulario">
+                <input class="email" type="email"  placeholder="Digite seu e-mail"> <button class="botao-dois">CADASTRE-SE</button>
+            </div>
+            
+        </div>
+
+
+    </div>
+    <br>
+    <hr class="teste">
+
+    <footer class="footer">
+        <div class="logo-footer">
+            <h1>WZ'X</h1>
+            <ul class="lista-redes">
+                <li><a class="itens-redes" href="#"><img src="icons8-tik-tok-50.png" alt="" width="30px"></a></li>
+                <li><a class="itens-redes" href="#"><img src="icons8-tik-tok-50.png" alt="" width="30px"></a></li>
+                <li><a class="itens-redes" href="#"><img src="icons8-tik-tok-50.png" alt="" width="30px"></a></li>
+            </ul>
+        </div>
+
+        <div class="sobre-nos">
+            <ul class="lista-sobre">
+                <p class="texto-footer">SOBRE NÓS</p>
+                <li><a class="itens-sobre" href="#">Fale conosco</a></li>
+                <li><a class="itens-sobre" href="#">Fale conosco</a></li>
+                <li><a class="itens-sobre" href="#">Fale conosco</a></li>
+                <li><a class="itens-sobre" href="#">Fale conosco</a></li>
+                <li><a class="itens-sobre" href="#">Fale conosco</a></li>
+            </ul>
+        </div>
+
+        <div class="contato">
+            <ul class="lista-contato">
+                <p class="texto-footer">CONTATO</p>
+                <li class="teste-um">
+                    <span class="material-icons md-20">phone_forwarded</span>
+                    <a class="itens-contato" href="#">(61) 99209-3452</a> 
+                </li>
+                <li class="teste-um">
+                    <span class="material-icons md-20">phone_forwarded</span>
+                    <a class="itens-contato" href="#">(61) 99209-3452</a> 
+                </li>
+                <li class="teste-um">
+                    <span class="material-icons md-20">mail</span>
+                    <a class="itens-contato" href="#">contato@wzx.com</a> 
+                </li>
+              
+            </ul>
+        </div>
+        
+        <div class="pagamento">
+            <p class="texto-footer">FORMAS DE PAGAMENTO</p>    
+            <ul class="lista-pagamento">
+                <li><a class="itens-pagamento" href="#"><img src="visa.PNG" alt=""></a></li>
+                <li><a class="itens-pagamento" href="#"><img src="visa.PNG" alt=""></a></li>
+                <li><a class="itens-pagamento" href="#"><img src="visa.PNG" alt=""></a></li>
+                <li><a class="itens-pagamento" href="#"><img src="visa.PNG" alt=""></a></li>
+                <li><a class="itens-pagamento" href="#"><img src="visa.PNG" alt=""></a></li>
+                <li><a class="itens-pagamento" href="#"><img src="visa.PNG" alt=""></a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <p class="copy">Desenvolvido por Pedro R.
+
+        copyright ©️ 2023</p>
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 900) {
+                itens.style.display = 'flex'
+            } else {
+                itens.style.display = 'none' 
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+
+    
+</body>
+</html>
