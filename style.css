@@ -75,7 +75,7 @@ hr {
 .card-principal {
     border: 1px solid rgb(193, 193, 193);
     width: 250px;
-    height: 450px;
+    height: 500px;
 }
 
 .foto-card {
@@ -96,7 +96,12 @@ hr {
     padding-top: 0;
 }
 
-
+.ver-produto {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
 
 .titulo-card {
     font-weight: bold;
@@ -260,7 +265,7 @@ hr {
     .card-principal {
         border: 1px solid rgb(193, 193, 193);
         width: 150px;
-        height: 320px;
+        height: 380px;
     }
 
     .foto-card {
