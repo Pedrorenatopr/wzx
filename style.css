@@ -388,6 +388,15 @@ hr {
         width: 50%;
     }
 
+    .cartao-dois {
+        display: block;
+        justify-content: center;
+    }
+
+    .foto-compra {
+        width: 350px;
+    }
+
 
 
 }
