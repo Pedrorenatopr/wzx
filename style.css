@@ -197,8 +197,25 @@ hr {
 }
 
 .cartao-dois {
+    display: flex;
+    justify-content: center;
+}
+
+.borda-dois {
     border: 1px solid gray;
-    width: 600px;
+}
+
+.card-dois {
+    padding: 1em;
+}
+
+.card-tres {
+    padding: 1em;
+}
+
+.borda-tres {
+    border: 1px solid gray;
+    padding: 1em;
 }
 
 @media screen and  (max-device-width: 900px) {
