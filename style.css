@@ -211,11 +211,43 @@ hr {
 
 .card-tres {
     padding: 1em;
+    text-align: center;
 }
 
 .borda-tres {
     border: 1px solid gray;
     padding: 1em;
+}
+
+.avaliacao-dois {
+    text-align: center;
+}
+
+.texto-pagamento {
+    color: white;
+    text-align: center;
+}
+
+.tamanho {
+    display: flex;
+    justify-content: center;
+}
+
+.cartao-tam {
+    padding: 1em;
+}
+
+.card-tam {
+    text-align: center;
+    width: 45px;
+    border: 1px solid gray;
+}
+
+.preco-compra {
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(159, 146, 59);
 }
 
 @media screen and  (max-device-width: 900px) {
