@@ -248,6 +248,16 @@ hr {
     text-align: center;
     font-weight: bold;
     color: rgb(159, 146, 59);
+    font-size: 24px;
+}
+
+.cep {
+    padding: 10px;
+}
+
+.caminhao {
+    width: 20px;
+    padding: 1px;
 }
 
 @media screen and  (max-device-width: 900px) {
