@@ -295,6 +295,20 @@ hr {
     line-height: 30px;
 }
 
+.produtos-rel {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.cartao-rel {
+    display: flex;
+    justify-content: center;
+}
+
+.card-rel {
+    padding: 1em;
+}
+
 @media screen and  (max-device-width: 900px) {
 
     .menu {
@@ -440,6 +454,11 @@ hr {
         padding-right: 0;
     }
 
+    .cartao-rel {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+    }
 
 
 }
