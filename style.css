@@ -278,7 +278,7 @@ hr {
     padding-top: 70px;
     display: flex;
     justify-content: center;
-    padding-right: 500px;
+    padding-right: 600px;
 }
 
 .itens-desc {
@@ -448,6 +448,11 @@ hr {
 
     .descricao-dois {
         padding-right: 0;
+    }
+
+    .itens-desc-dois {
+        padding-left: 10px;
+        line-height: 30px;
     }
 
     .descricao {
