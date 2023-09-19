@@ -251,6 +251,13 @@ hr {
     font-size: 24px;
 }
 
+.comprar {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 150px;
+}
+
 .cep {
     padding: 10px;
 }
@@ -394,7 +401,7 @@ hr {
     }
 
     .foto-compra {
-        width: 350px;
+        width: 340px;
     }
 
 
