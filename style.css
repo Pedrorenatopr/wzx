@@ -273,6 +273,17 @@ hr {
     padding: 1px;
 }
 
+.descricao {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    padding-right: 500px;
+}
+
+.itens-desc {
+    padding: 1em;
+}
+
 @media screen and  (max-device-width: 900px) {
 
     .menu {
@@ -407,7 +418,7 @@ hr {
     }
 
     .foto-compra {
-        width: 330px;
+        width: 320px;
     }
 
 
