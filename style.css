@@ -203,6 +203,7 @@ hr {
 }
 
 .cartao-dois {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -282,6 +283,16 @@ hr {
 
 .itens-desc {
     padding: 1em;
+}
+
+.descricao-dois {
+    display: flex;
+    justify-content: center;
+    padding-right: 450px;
+}
+
+.itens-desc-dois {
+    line-height: 30px;
 }
 
 @media screen and  (max-device-width: 900px) {
@@ -419,6 +430,14 @@ hr {
 
     .foto-compra {
         width: 320px;
+    }
+
+    .descricao-dois {
+        padding-right: 0;
+    }
+
+    .descricao {
+        padding-right: 0;
     }
 
 
