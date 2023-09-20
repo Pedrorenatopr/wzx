@@ -323,19 +323,18 @@ hr {
 .card-compra {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    border: 1px solid gray;
 
 }
 
 .compra {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
 
 .testando {
-    display: flex;
-    justify-content: center;
-    border: 1px solid gray;
+
 }
 
 
