@@ -309,6 +309,38 @@ hr {
     padding: 1em;
 }
 
+.foto-compra {
+    width: 200px;
+    padding: 1em;
+    padding-top: 0;
+}
+
+.texto-compra {
+    padding: 1em;
+    padding-top: -10px;
+}
+
+.card-compra {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.compra {
+    display: flex;
+    justify-content: center;
+}
+
+.testando {
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+
+
+
 @media screen and  (max-device-width: 900px) {
 
     .menu {
