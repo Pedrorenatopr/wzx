@@ -366,7 +366,15 @@ hr {
 
 .input-cvv {
     padding: 15px;
-} 
+}
+
+.texto-cartao {
+    width: 690px;
+    padding-right: 0;
+    border: 1px solid gray;
+    padding: 1em;
+
+}
 
 @media screen and  (max-device-width: 900px) {
 
