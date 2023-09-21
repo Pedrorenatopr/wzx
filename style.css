@@ -309,7 +309,7 @@ hr {
     padding: 1em;
 }
 
-.foto-compra {
+.foto-final {
     width: 200px;
     padding: 1em;
     padding-top: 0;
@@ -333,12 +333,19 @@ hr {
     justify-content: center;
 }
 
-.testando {
-
+.passo-um {
+    font-size: 13px;
 }
 
+.form-pix {
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
 
-
+.texto-pix {
+    padding-right: 0;
+}
 
 @media screen and  (max-device-width: 900px) {
 
