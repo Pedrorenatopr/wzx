@@ -364,6 +364,10 @@ hr {
     width: 250px;
 }
 
+.input-cvv {
+    padding: 15px;
+} 
+
 @media screen and  (max-device-width: 900px) {
 
     .menu {
