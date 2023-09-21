@@ -333,19 +333,27 @@ hr {
     justify-content: center;
 }
 
+.card-form {
+    padding-top: 50px;
+}
+
 .passo-um {
     font-size: 13px;
 }
 
 .form-pix {
-    border: 1px solid gray;
     display: flex;
     justify-content: center;
 }
 
 .texto-pix {
     padding-right: 0;
+    border: 1px solid gray;
+    padding: 1em;
+
 }
+
+
 
 @media screen and  (max-device-width: 900px) {
 
