@@ -470,6 +470,10 @@ hr {
         color: black;
     }
 
+    .botao-dois {
+        padding: 20px;
+    }
+
     .footer {
         padding-top: 100px;
         display: grid;
